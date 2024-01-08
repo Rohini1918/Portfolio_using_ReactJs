@@ -1,0 +1,62 @@
+#skills
+{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    max-width: 85rem;
+    position: relative;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+#skills_heading
+{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+#percentage
+{
+    font-size: 2rem;
+    margin-top: -10rem;
+}
+#skill_name
+{
+    margin-top: 8rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 8rem;
+}
+#down_content_references
+{
+    display: flex;
+    
+}
+#down_back_icon_skills
+{   
+    height: 2rem;
+}
+#down_next_icon_skills
+{   
+    
+    height: 2rem;
+    margin-top: -1.2rem;
+}
+#link_skills_back
+{   
+    display: flex;
+    margin-left: 5rem;
+}
+#link_skills_next
+{
+    margin-left: 76rem;
+    display: flex;
+}
+#next_link_skills1
+{
+    margin-top: -1.2rem;
+}
+#back_link_skills1
+{
+    margin-top: 0.2rem;
+}

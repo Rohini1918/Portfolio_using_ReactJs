@@ -1,0 +1,99 @@
+#references
+{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    max-width: 85rem;
+    position: relative;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+#Refrences_main_heading
+{
+    font-size: 2rem;
+}
+#reference_section
+{   
+    display: flex;
+}
+#reference
+{   
+    text-align: center;
+    background-color: rgb(50,50,50);
+    margin: 3rem 6rem;
+    height: 60vh;
+    padding: 2rem 2rem;
+    width: 30vw;
+    max-width: 30vw;
+    display: inline-grid;
+    gap: 0.2rem;
+    border-radius: 2rem;
+}
+#prof_img
+{
+    height: 15rem;
+    width: 15rem;
+    margin-left: 5.5rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+#knowMore_btn
+{
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+#prof_name
+{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#prof_desc
+{
+    font-size: 1rem;
+}
+#know-more
+{
+    font-weight: 700;
+    margin-left: -12rem;
+}
+.icon-info
+{
+    font-size: 1rem;
+    font-weight: 800;
+    margin-left: -0.2rem;
+}
+#down_content_references
+{
+    display: flex;
+    margin-top: 0rem;
+}
+#down_back_icon_references
+{   
+    height: 2rem;
+}
+#down_next_icon_references
+{   
+    
+    height: 2rem;
+}
+#link_references_back
+{   
+    display: flex;
+    margin-left: 5rem;
+}
+#link_references_next
+{
+    margin-left: 65rem;
+    display: flex;
+}
+#next_link_references1
+{
+    margin-top: 0.2rem;
+}
+#back_link_references1
+{
+    margin-top: 0.2rem;
+}

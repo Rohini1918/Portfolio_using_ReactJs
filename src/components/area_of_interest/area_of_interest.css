@@ -1,0 +1,160 @@
+#area{
+    overflow: hidden;
+    height: 90vh;
+    width: 100vw;
+    max-width: 150rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+.menuitem:hover
+{
+   color: #135e96;
+}
+#heading
+{   
+    font-size: 2vw;
+    font-weight: 500;
+}
+#sections
+{  
+    margin-top: -40rem;
+    display: flex;
+    width: 90%;
+    height: 40vh;
+    justify-content: space-around;
+}
+#section_heading
+{
+    margin-top: 4rem;
+}
+#section
+{   
+    margin-top: -50rem;
+    text-align: center;
+    background: #0a4069;
+    margin: 1rem 1rem;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+}
+#section:hover
+{
+    transform: translateY(-5px);
+}
+#section_content
+{
+    margin-top: 2rem;
+}
+#section_content_para
+{
+    margin-top: 1rem;
+}
+#section_content_img
+{   
+    margin-top: 1rem;
+    object-fit: cover;
+    height:2.5rem;
+    width: 2.5rem;
+    margin: 1rem 0.5rem;
+    border-radius: 50%;
+}
+#down_content_area
+{
+    display: flex;
+    margin-top: -30rem;
+    margin-bottom: 2rem;
+}
+#down_back_icon_area
+{   
+    height: 2rem;
+}
+#down_next_icon_area
+{   
+    
+    height: 2rem;
+}
+#link_area_back
+{   
+    display: flex;
+    margin-left: 0rem;
+}
+#link_area_next
+{
+    margin-left: 70rem;
+    display: flex;
+}
+/* #back_link_area
+{
+    margin-top: -2rem;
+    margin-right: 6rem;
+}
+#next_link_area
+{
+    margin-left: 6rem;
+} */
+/* #section{
+    
+}
+
+#section_img{
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#section_content
+{   
+    position: relative;
+    z-index: 3;
+    /* color: #fff; */
+    /* opacity: 0;
+    transform: translateY(10rem);
+    transition: 0.5s all;
+}
+.frontend_content_heading
+{
+    margin-left: 2rem;
+}
+.frontend_img
+{
+    margin-right: 10rem;
+}
+.comp_p_img
+{
+    margin-right: 5rem;
+}
+.dsa_img
+{
+    margin-right: 5rem;
+}
+#section_content_img
+{   
+    margin-top: 1rem;
+    object-fit: cover;
+    height:2.5rem;
+    width: 2.5rem;
+    margin-right: 2vw;
+    border-radius: 50%;
+}
+#section_content_para
+{
+    margin-top: 0.5rem;
+    font-weight: 100;
+}
+#back_link_area
+{
+    margin-left: -80rem;
+    margin-top: -10rem;
+}
+#next_link_area
+{
+    margin-right: -80rem;
+    margin-top: -2rem;
+} */ 

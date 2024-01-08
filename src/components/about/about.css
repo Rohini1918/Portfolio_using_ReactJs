@@ -1,0 +1,145 @@
+#about_me{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    max-width: 85rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+#intro_heading
+{
+    padding: 2rem 0rem;
+    margin-top: -7rem;
+
+}
+#intro_para
+{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+
+}
+#sections_about
+{
+    display: flex;
+    align-content: flex-start;
+    width: 100vw;
+    max-width: 65rem;
+    gap: 200;
+}
+#sections-part-1 .section_about{
+    display: flex;
+    height: 10rem;
+    max-height: 9vh;
+    width: 25vw;
+    max-width: 1000vw;
+    margin-left: -7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 0.2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+    margin-right: 3rem;
+    padding: 0.5rem 0.5rem;
+}
+#sections-part-2 .section_about{
+    display: flex;
+    height: 10rem;
+    max-height:9vh;
+    width: 25vw;
+    max-width: 1000vw;
+    margin: 1rem;
+    padding: 0.5rem 0.2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+    margin-right: 2rem;
+    padding: 0.5rem 0.5rem;
+}
+.section_img_about
+{
+    object-fit: cover;
+    height:3rem;
+    width: 3rem;
+    margin-right: 0.1vw;
+    border-radius: 2rem;
+}
+#section_content_heading
+{
+    margin: -0.5rem 1rem;
+}
+.menuitem
+{   
+    font-weight: 600;
+    max-width: 51rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+#gif
+{   
+    width: 30rem;
+}
+#down_content_about
+{
+    display: flex;
+    margin-top: 3rem;
+}
+#down_back_icon
+{
+    height: 2rem;
+    margin-left: -80rem;
+}
+#down_next_icon
+{
+    height: 2rem;
+    margin-right: -80rem;
+}
+@media screen and (max-width : 450px){
+    .section_img_about
+    {
+        margin-right: 0.2vw;
+    }
+    #sections-part-1 .section_about{
+        padding: 0.5rem 0.75rem;
+        margin-right: 0.01rem;
+        width: 50vw;
+    }
+    #sections-part-2.section_about{
+        padding: 0.5rem 0.75rem;
+        width: 50vw;
+    }
+}
+@media screen and (max-width : 800px){
+    #sections-part-1 .section_about{
+        width: 40vw;
+    }
+    #sections-part-2.section_about{
+        width: 40vw;
+    }
+}
+@media screen and (max-width : 600px){
+    .menuitem{
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+}
+#back_link_about
+{
+    /* margin-left: -80rem; */
+    color: white;
+    margin-top: -2rem;
+    margin-left: -74rem;
+}
+#next_link_about
+{
+   
+    color: white;
+    margin-top: -2rem;
+    margin-right: -74rem;
+}

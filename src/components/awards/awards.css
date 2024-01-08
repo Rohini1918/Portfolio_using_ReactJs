@@ -1,0 +1,128 @@
+#awards{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+#awards_heading
+{
+    font-size: 2vw;
+    height: 10vh;
+}
+#award_section
+{
+    height: 60vh;
+    display: flex;
+}
+#award
+{
+    margin: -5rem 2rem;
+}
+#star-1
+{
+   font-size: 13rem;
+   color: gold;
+}
+#star-2-hidden
+{
+    visibility: hidden;
+}
+#star-2-show
+{
+   visibility: visible;
+   position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.50);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+#star-1:hover{
+    /* transform: translateY(-10px); */
+    cursor: pointer;
+    font-size: 15rem;
+}
+#star-1:hover #star_content{
+    visibility: hidden;
+}
+#star_content_img{
+    visibility: hidden;
+    height: 5rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+#star-1:hover #star_content_img{
+    visibility: visible;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-bottom: 50rem;
+    margin-top: -7rem;
+}  
+#star_content
+{   
+    font-size: 8rem;
+    /* color: black; */
+    color: white;
+    margin-top: -10.5rem;
+}
+#shown_star_content
+{
+    background-color: rgb(231, 200, 28);
+    height: 40vh;
+    padding: 4rem 2rem;
+    font-size: 1.75rem;
+    font-weight: 800;
+    border-radius: 2rem;
+    text-align: center;
+}
+#read-more-award
+{
+    margin-left: 0rem;
+    font-size: 1rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+.icon-arrow-right-circle
+{
+    margin-left: 0.2rem;
+}
+#down_content_awards
+{
+    display: flex;
+    margin-top: -20rem;
+    margin-bottom: 7rem;
+}
+#down_back_icon_awards
+{   
+    height: 2rem;
+}
+#down_next_icon_awards
+{   
+    
+    height: 2rem;
+}
+#link_awards_back
+{   
+    display: flex;
+    margin-left: 5rem;
+}
+#link_awards_next
+{
+    margin-left: 65rem;
+    display: flex;
+}

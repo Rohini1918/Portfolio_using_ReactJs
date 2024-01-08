@@ -1,0 +1,170 @@
+#my_internship
+{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    max-width: 85rem;
+    position: relative;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+#internship_main_heading
+{
+    font-size: 2rem;
+}
+#internships
+{
+    display: flex;
+    margin-left: 10rem;
+    margin-right:  10rem;
+    margin-top: 3rem;
+}
+#internship
+{
+    margin: 1rem 5rem;
+    background: rgb(50,50,50);
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    height: 50vh;
+    width: 30vw;
+    display: grid;
+    padding: 2rem 1rem;
+    text-align: left;
+}
+#internship_img
+{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+}
+#internship_img:hover{
+    transform: translateY(-10px);
+}
+#internship_heading
+{
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#internship_heading:hover
+{
+    color: black;
+}
+#readMore_btn
+{
+    display: inline-flex;
+    position: relative;
+    gap: 0.5rem;
+}
+#readMore_btn:hover .icon-arrow-right-circle
+{
+    transform: translateX(0.25rem);
+}
+#read-more
+{
+    font-size: 0.8rem;
+}
+.icon-arrow-right-circle
+{
+    transition: 0.3s;
+}
+.passive_div
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.50);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 1;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.active_div
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.50);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+#active_div_content
+{
+    width: 45rem;
+    position: relative;
+    background-color: whitesmoke;
+    padding: 4.5rem 2.5rem 2.0rem;
+    color: black;
+    border-radius: 1.5rem;
+    height: 70vh;
+}
+#active_heading
+{ 
+    font-size: 2rem;
+  margin: 1rem 0.5rem;
+  text-align: center;
+  color: rgb(50,50,50);
+}
+#active_company
+{
+    font-size: 1.25rem;
+    margin: 0.5rem 0.5rem;
+    color: rgb(50,50,50);
+}
+#proj_desc_heading
+{
+    font-size: 1.25rem;
+    margin: 0.5rem 0.5rem;
+    color: rgb(50,50,50);
+}
+.icon-close
+{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+}
+#close_link :hover{
+    cursor: pointer;
+}
+#down_content_internship
+{
+    display: flex;
+    margin-top: 4rem;
+}
+#down_back_icon_internship
+{   
+    height: 2rem;
+}
+#down_next_icon_internship
+{   
+    
+    height: 2rem;
+}
+#link_internship_back
+{   
+    display: flex;
+    margin-left: 5rem;
+}
+#link_internship_next
+{
+    margin-left: 65rem;
+    display: flex;
+}
